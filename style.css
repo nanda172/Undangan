@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+nav {
+    font-family: 'Lobster', cursive;
+    padding: 20px 14px;
+    font-size: large;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+main .undangan {
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/3.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.89)
+}
+
+main .undangan2 {
+        display: flex;
+        justify-content: center;
+}
+
+main .flower {
+    height: 200px;
+    width: 250px;
+}
+
+main .atas {
+    height: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.atas h1 {
+    margin-bottom: 40px;
+}
+
+.atas .pengantin {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 40px auto 20px auto;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 3px;
+}
+
+/* undangan bawah */
+.bawah .rings {
+    width: 30%;
+    height: auto;
+    padding-top: 30px;
+}
+
+.undangan3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(img/4.jpg);
+    background-size: cover;
+    color: rgb(5, 5, 5);
+}
+
+.bawah {
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.bawah h3 {
+    padding: 10px 0;
+}
+
+.bawah h4 {
+    padding-top: 20px;
+}
+
+.bawah input {
+    border: 2px solid rgb(255, 238, 215);
+    background-color: burlywood;
+    padding: 15px 24px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.mohon  {
+    padding-bottom: 30px;
+}
+.
+/* end undangan Bawah */
+
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+/* footer */
+footer {
+    height: auto;
+    width: 100%;
+    background-color: burlywood;
+}
+
+.footer {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 40px 0;
+    
+}
+
+footer h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer p {
+    text-align: justify;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+
+/* end footer */
+/* ------------------------------------------ */
